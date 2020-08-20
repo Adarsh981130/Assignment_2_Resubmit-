@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header class="sticky-navigation">
+      <div class="toggle-button">
+        <input type="checkbox" id="menu-button" class="menu-input"/>
+          <label class="menu-button" for="menu-button" >
+            <span ></span>
+          </label>
+        </div>
+      
+         <div class="Icons-Port" id="menu-open-close">
+           <nav>
+              <ul>
+                  <a href="#home" class="sticky-navigation-item">Home</a>
+                  <a href="#portfolio" class="sticky-navigation-item">Portfolio</a>
+                  <a href="#contcat-us" class="sticky-navigation-item">Contact</a>
+                  <a href="#cv" class="sticky-navigation-item">cv</a>
+            </ul>
+               </nav>
+               
+            </div>
+<div class="scroll-persentage"></div>
+    </header>
+    <section id="home"  class="scroll-step">
+      <div class="Box-Container">
+          <img src="Profile.jpg" id="profilePic" alt="Adarsh" class="img-profile" onmouseover="changePic()" onmouseout="normalPic()">
+          <article class="arcticle-index">
+              <h1>Hello I'M Adarsh</h1>
+              <h3><p>I am stuyding</p><p>BSc Business Computing</p></h3>
+              <h5> <p>Making a mistake will help me to improve</p><p>my ability and mistakes</p></h5>
+          </article>
+      </div>
+  </section>
+
+
+
+    <section id="portfolio" class="scroll-step">
+        <div class="flex-container">
+            <h1 class="Port-h1">Portfolio</h1>
+            <hr>
+            <div class="gallery">
+                  <div class="gallery-item">
+                           <img src="Portfolio/todo-portfolio.png" alt="todo-portfolio" class="image">
+                    <div class="middle">
+                      <div class="text"><a href="https://github.com/Adarsh981130/To-Do-Lists">To Do List Apps</a></div>
+                    </div>
+                  </div>
+                <div class="gallery-item">
+                         <img src="Portfolio/weather-app.jpeg" alt="weather-app" class="image">
+                  <div class="middle">
+                    <div class="text"><a href="https://github.com/Adarsh981130/Weather-App">Weather Apps</a></div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                         <img src="Portfolio/RandomCodegenerator.jpg" alt="RandomCodegenerator" class="image">
+              
+                  <div class="middle">
+                    <div class="text"><a href="https://github.com/Adarsh981130/Random_code_Generator">Random Code generator apps</a></div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                         <img src="Portfolio/html.png" alt="html" class="image">
+                
+                  <div class="middle">
+                    <div class="text"><a hre="#">Html</a></div>
+                  </div>
+                </div>
+                
+                <div class="gallery-item">
+                         <img src="Portfolio/logo-javascript.png" alt="JavaScript" class="image">
+                
+                  <div class="middle">
+                    <div class="text"><a href="#">JavaScript</a></div>
+                  </div>
+                </div>
+                
+                <div class="gallery-item">
+                         <img src="Portfolio/css-logo.png" alt="css" class="image">
+                
+                  <div class="middle">
+                    <div class="text"><a href="#">Css</a></div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img src="Portfolio/database.jpg" alt="DATABASE" class="image">
+         
+           <div class="middle">
+             <div class="text"><a href="#">Database</a></div>
+           </div>
+         </div>
+         <div class="gallery-item">
+          <img src="Portfolio/java.png" alt="JAVA" class="image">
+ 
+   <div class="middle">
+     <div class="text"><a href="#">Java</a></div>
+   </div>
+ </div>
+          </div>
+      </div>
+    </section>
+    <section id="contact-us" class="scroll-step">
+      <div class="contact-container"> 
+        <div class="Contact-title">
+            <h1 class="contact-h1">CONTACT FORM</h1>
+            <br>
+            <br>
+            <h3>Please fill in your form</h3>
+        </div>
+
+          <div class="contact-form">
+              <form class="contact-form" method="POST" action="">
+                  <input name="Name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+                  <input name="Email" type="Email" class="form-control" placeholder="Your Email" required><br>
+
+                  <textarea name="Message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+                  <input type="submit" class="form-control submit" value="SEND MESSAGE">
+              </form>
+          </div>
+      </div>
+    </section>
+    <section id="cv" class="scroll-step">
+      <div class="flex-container">
+        <div class="cv-text-small-center">
+            <div class="Contact-title">
+                <h1 class="contact-h1">CV</h1>
+            </div>
+              <div class='portfolio-cv'>
+                <div class='row'>
+                      <div class='column'>
+                        <div class='Profile-cv'>
+                          <h3>Profile</h3>
+                          <div class="cv-work-experinces">
+                                 <img src="Profile.jpg" alt="Adarsh" id="profilehover" class="img-profile-cv" onmouseover="changecv()" onmouseout="normalcv()">
+                                 <p>Name:- Adarsh Naresh</p>
+                         
+                                </div>
+                                <div class="cv-work-experinces">
+                                  <h3>Work Experience</h3>
+                                  <h4>NCS (National Citizen Service)</h4>
+                                  <P>I have been to NCS programme where I stayed for 4 days. I have also finished my NCS graduation on 10 November 2016. I have gained a lot of amazing life experiences and skills from this programme as I took participation in lots of activities such as fundraising for a charity named British Red Cross. This activity helped me to lnearn social skills such as making new friends, being confident in presenting yourself to the world and the importance of approaching new challenge with positivity. Me and my team collected over £1000 in 30 hours. After these experiences, I believe that I have an excellent set of variable employability skills which makes me an asset to any team or company.</P>
+                                </div>
+                                <div class="cv-work-experinces">
+                                  <h3>CONTACT DETAILS</h3>
+                                  <P><i class="fa fa-phone"></i> 07440203784</P>
+                                  <p><i class="fa fa-envelope"></i> Adarshnaresh98@yahoo.co.uk</p>
+                                  <P><i class="fa fa-location-arrow"></i> 17,Meynell Road, Leicester</P>
+                                </div>
+                              </div>
+                            </div>
+                            <div class='column'>
+                              <div class='career-column'>
+                                 <h3>Career Objective</h3>
+                                 <p> Seeking to working for a company in a computer filed</p>
+                                 <br>
+                                  <h3>Skills</h3>
+                                  <p><b>HTML/CSS Code</b> :- General knowledge of coding, have an few experience playing with code in CSS and HTML</p>
+                                  <p><b>Database</b> :-  General knowledge of Database, have an experience of MS Access and excel.</p>
+                                  <br>
+                                  <p><b>Basic skill</b>:- </p>
+                                  <p> Good communication and interpersonal skills</p>
+                                  
+                                  <p> Basic IT/computing skills – knowledge of MS Office/internet</p>
+                                  <p> Excellent time management skills</p>
+                                  <p> Ability to adapt to different working environments</p>
+                                  <p> Knowledge based skills</p>
+                                  <p> Hard working</p>
+                                  <p>Workings as team</p>
+              
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+     </div>
+  </section>
+  <button class="Scrolltop">Scroll To Top</button>
+    <footer>
+        <div class="footer-background">
+            <div class="footer-menu">
+                <h1>Qucik Link</h1>
+                 <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contcat-us">Contact</a></li>
+                  <li><a href="#cv">cv</a></li>
+            </ul>
+            </div>
+           
+            <div class="footer-social-icon">
+                <h1>Social Link</h1>
+                <ul>
+                  <a href="https://www.instagram.com/_______a_d_______98/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://twitter.com/adarshnaresh30"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  <a href="linkedin.com/in/adarsh-n-928633111"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                  <a href="https://github.com/Adarsh981130"><i class="fa fa-github" aria-hidden="true"></i></a>
+            
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      // about us profile pic change
+      function changePic() {
+          document.getElementById("profilePic").src = "Profile.jpg";
+        }
+  
+      function normalPic() {
+        document.getElementById("profilePic") .src = "Portfolio/Back-Port.JPG";
+      }
+      function changecv() {
+          document.getElementById("profilehover").src = "Profile.jpg";
+        }
+  
+      function normalcv() {
+        document.getElementById("profilehover") .src = "Portfolio/Back-Port.JPG";
+      }
+
+      $(document).ready(function(){
+      $(".menu-input").click(function(){
+         $(".Icons-Port").toggle();
+         });
+
+      (function () {
+    
+   //////////////////////
+  // Utils
+  //////////////////////
+    function throttle(fn, delay, scope) {
+        // Default delay
+        delay = delay || 250;
+        var last, defer;
+        return function () {
+            var context = scope || this,
+                now = +new Date(),
+                args = arguments;
+            if (last && now < last + delay) {
+                clearTimeout(defer);
+                defer = setTimeout(function () {
+                    last = now;
+                    fn.apply(context, args);
+                }, delay);
+            } else {
+                last = now;
+                fn.apply(context, args);
+            }
+        }
+    }
+
+    function extend(destination, source) {
+        for (var k in source) {
+            if (source.hasOwnProperty(k)) {
+                destination[k] = source[k];
+            }
+        }
+        return destination;
+    }
+  
+   //////////////////////
+  // END Utils
+  //////////////////////
+  
+   //////////////////////
+   // Scroll Module
+   //////////////////////
+
+    var ScrollManager = (function () {
+
+        var defaults = {
+
+                steps: null,
+                navigationContainer: null,
+                links: null,
+                scrollBtn: null,
+
+                navigationElementClass: '.sticky-navigation',
+                currentStepClass: 'current',
+                smoothScrollEnabled: true,
+                stepsCheckEnabled: true,
+
+                // Callbacks
+                onScroll: null,
+
+                onStepChange: function (step) {
+                    var self = this;
+                    var relativeLink = [].filter.call(options.links, function (link) {
+                        link.classList.remove(self.currentStepClass);
+                        return link.hash === '#' + step.id;
+                    });
+                    relativeLink[0].classList.add(self.currentStepClass);
+                },
+
+                // Provide a default scroll animation
+                smoothScrollAnimation: function (target) {
+                    $('html, body').animate({
+                        scrollTop: target
+                    }, 'slow');
+                }
+            },
+
+            options = {};
+
+        // Privates
+        var _animation = null,
+            currentStep = null,
+            throttledGetScrollPosition = null;
+
+        return {
+
+            scrollPosition: 0,
+
+            init: function (opts) {
+
+                options = extend(defaults, opts);
+
+                if (options.steps === null) {
+                    console.warn('Smooth scrolling require some sections or steps to scroll to :)');
+                    return false;
+                }
+
+                // Allow to customize the animation engine ( jQuery / GSAP / velocity / ... )
+                _animation = function (target) {
+                    target = typeof target === 'number' ? target : $(target).offset().top;
+                    return options.smoothScrollAnimation(target);
+                };
+
+                // Activate smooth scrolling
+                if (options.smoothScrollEnabled)  this.smoothScroll();
+
+                // Scroll to top handling
+                if (options.scrollBtn) {
+                    options.scrollBtn.addEventListener('click', function () {
+                        options.smoothScrollAnimation(0);
+                    });
+                }
+
+                // Throttle for performances gain
+                throttledGetScrollPosition = throttle(this.getScrollPosition).bind(this);
+                window.addEventListener('scroll', throttledGetScrollPosition);
+                window.addEventListener('resize', throttledGetScrollPosition);
+
+                this.getScrollPosition();
+            },
+
+            getScrollPosition: function () {
+                this.scrollPosition = window.pageYOffset || window.scrollY;
+                if (options.stepsCheckEnabled) this.checkActiveStep();
+                if (typeof  options.onScroll === 'function') options.onScroll(this.scrollPosition);
+            },
+
+            scrollPercentage: function () {
+                var body = document.body,
+                    html = document.documentElement,
+                    documentHeight = Math.max(body.scrollHeight, body.offsetHeight,
+                        html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+                var percentage = Math.round(this.scrollPosition / (documentHeight - window.innerHeight) * 100);
+                if (percentage < 0)  percentage = 0;
+                if (percentage > 100)  percentage = 100;
+                return percentage;
+            },
+
+            doSmoothScroll: function (e) {
+                if (e.target.nodeName === 'A') {
+                    e.preventDefault();
+                    if (location.pathname.replace(/^\//, '') === e.target.pathname.replace(/^\//, '') && location.hostname === e.target.hostname) {
+                        var targetStep = document.querySelector(e.target.hash);
+                        targetStep ? _animation(targetStep) : console.warn('Hi! You should give an animation callback function to the Scroller module! :)');
+                    }
+                }
+            },
+
+            smoothScroll: function () {
+                if (options.navigationContainer !== null) options.navigationContainer.addEventListener('click', this.doSmoothScroll);
+            },
+
+            checkActiveStep: function () {
+                var scrollPosition = this.scrollPosition;
+
+                [].forEach.call(options.steps, function (step) {
+                    var bBox = step.getBoundingClientRect(),
+                        position = step.offsetTop,
+                        height = position + bBox.height;
+
+                    if (scrollPosition >= position && scrollPosition < height && currentStep !== step) {
+                        currentStep = step;
+                        step.classList.add(self.currentStepClass);
+                        if (typeof options.onStepChange === 'function') options.onStepChange(step);
+                    }
+                    step.classList.remove(options.currentStepClass);
+                });
+            },
+
+            destroy: function () {
+                window.removeEventListener('scroll', throttledGetScrollPosition);
+                window.removeEventListener('resize', throttledGetScrollPosition);
+                options.navigationContainer.removeEventListener('click', this.doSmoothScroll);
+            }
+        }
+    })();
+     //////////////////////
+     // END scroll Module
+     //////////////////////
+  
+  
+    //////////////////////
+    // APP init
+    //////////////////////
+
+    var scrollBtn = document.querySelector('.Scrolltop'),
+        steps = document.querySelectorAll('.scroll-step'),
+        navigationContainer = document.querySelector('.sticky-navigation'),
+        links = navigationContainer.querySelectorAll('a'),
+        progressIndicator = document.querySelector('.scroll-persentage');
+
+    ScrollManager.init({
+        steps: steps,
+        scrollBtn: scrollBtn,
+        navigationContainer: navigationContainer,
+        links: links,
+      
+        // Customize onScroll behavior
+        onScroll: function () {
+            var percentage = ScrollManager.scrollPercentage();
+            percentage >= 90 ? scrollBtn.classList.add('visible') : scrollBtn.classList.remove('visible');
+
+            if (percentage >= 10) {
+                progressIndicator.innerHTML = percentage + "%";
+                progressIndicator.classList.add('visible');
+            } else {
+                progressIndicator.classList.remove('visible');
+            }
+        }, 
+    });
+  
+
+})();
+      });
+    </script>
+</body>
+</html>
+
+
+
+Reference:- 
+Hamburger:- https://codepen.io/lizcoultersmith/pen/PxjXyb
+Java Scrolling:- https://codepen.io/lizcoultersmith/pen/yLyKMQx
+Profile ImageChange effect:- https://codepen.io/lizcoultersmith/details/VwYNjdG
+
+
+
